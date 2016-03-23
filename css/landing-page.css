@@ -235,6 +235,21 @@ p.copyright {
     float: left;
 }
 
+.contact {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.contact i {
+    float: left;
+    line-height: 1.5em;
+    margin-right: 10px;
+}
+
+.contact span {
+    float: left;
+}
+
 
 
 /*****************************************
