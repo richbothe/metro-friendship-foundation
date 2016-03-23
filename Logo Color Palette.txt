@@ -1,0 +1,15 @@
+Logo Color Palette
+
+PRIMARY
+Blue: #84b5c8
+Grey (Loblolly): #b9b8bb
+Brown: #a7262c
+Grey (Jon): #444042
+
+COMPLIMENTARY COLORS
+Red (Turkish Rose): #a67578
+Red (Tall Poppy): #863030
+Pink (Sun Down): #f8b1b4
+Grey (Dove Grey): #767576
+Pink (Dust Storm): #e4c3c5
+Red (Light Coral): #f98587

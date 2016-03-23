@@ -1,0 +1,152 @@
+/*====================================================
+	GLOBALS
+====================================================*/
+img {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+a {
+	color: #84b5c8;
+}
+a:hover, a:active {
+	color: #638694;
+}
+
+.btn {
+	text-transform: uppercase;
+}
+/*****  FA ICONS  *****/
+.fa {
+	font-size: 1.15em;
+	margin-right: 5px;
+}
+
+.fa-chevron-down {
+	color: #b9b8bb;
+}
+
+.fa-chevron-up {
+	color: #444042;
+}
+
+.fa-facebook-square {
+	color: #3a5795;
+}
+
+.fa-users {
+	color: #f98587;
+}
+
+.fa-money {
+	color: green;
+}
+
+.fa-file-pdf-o {
+	color: #863030; /*#BD1A1F;*/
+}
+
+.fa-video-camera {
+	color: #a7262c;
+}
+
+.fa-info-circle {
+	color: blue;
+}
+
+.content {}
+
+.content h3 {
+	/*color: #f98587;*/
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.content p, 
+.content ul {
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.content p:last-child,
+.content ul {
+	margin-bottom: 20px;
+}
+
+.panel-group .panel-heading {
+	position: relative;
+	cursor: pointer;
+}
+
+.panel-group .panel-heading a:hover {
+	text-decoration: none;
+}
+
+.panel-group .panel-heading i {
+	position: absolute;
+	right: 10px;
+}
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	iframe {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 491px) and (max-width: 767px) {
+	iframe {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	iframe {
+		display: none;
+	}
+}
+
+.footer {
+	background-color: #f8f8f8;
+	/*bottom: 0;*/
+	padding: 50px 0;
+	/*position: fixed;*/
+	width: 100%;
+}

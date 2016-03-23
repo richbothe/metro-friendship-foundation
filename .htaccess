@@ -1,0 +1,20 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.metrofriendshipfoundation.org
+RewriteRule (.*) http://metrofriendshipfoundation.org/$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} /scholarships\.html$
+RewriteCond %{QUERY_STRING} ^id=1$
+RewriteRule .* http://metrofriendshipfoundation.org/#scholarships [R=301,NE,L]
+RewriteCond %{REQUEST_URI} /events\.html$
+RewriteCond %{QUERY_STRING} ^id=1$
+RewriteRule .* http://metrofriendshipfoundation.org/#events [R=301,NE,L]
+RewriteCond %{REQUEST_URI} /donation\.html$
+RewriteCond %{QUERY_STRING} ^id=1$
+RewriteRule .* http://metrofriendshipfoundation.org/#donate [R=301,NE,L]
+RewriteCond %{REQUEST_URI} /contact\.html$
+RewriteCond %{QUERY_STRING} ^id=1$
+RewriteRule .* http://metrofriendshipfoundation.org/#contact [R=301,NE,L]
+RewriteCond %{REQUEST_URI} /volunteer\.html$
+RewriteCond %{QUERY_STRING} ^id=1$
+RewriteRule .* http://metrofriendshipfoundation.org/#volunteer [R=301,NE,L]
