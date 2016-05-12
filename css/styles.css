@@ -54,6 +54,10 @@ a:hover, a:active {
 	color: blue;
 }
 
+.fa-ticket {
+	color: #6698FF;
+}
+
 .content {}
 
 .content h3 {
