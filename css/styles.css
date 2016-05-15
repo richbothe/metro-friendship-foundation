@@ -58,6 +58,8 @@ a:hover, a:active {
 	color: #6698FF;
 }
 
+
+/*****  CONTENT  *****/
 .content {}
 
 .content h3 {
@@ -89,6 +91,10 @@ a:hover, a:active {
 .panel-group .panel-heading i {
 	position: absolute;
 	right: 10px;
+}
+
+.tickets {
+	margin-top: 20px;
 }
 
 @media (max-width: 991px) {
